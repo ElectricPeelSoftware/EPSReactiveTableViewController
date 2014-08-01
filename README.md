@@ -1,5 +1,7 @@
 # EPSReactiveTableViewController
 
+:warning: EPSReactiveTableViewController has been deprecated in favor of [EPSReactiveList](https://github.com/ElectricPeelSoftware/EPSReactiveList). :warning:
+
 `EPSReactiveTableViewController` is a subclass of `UITableViewController` that automatically populates a table view, and animates the insertion and deletion of rows by observing changes to an array of model objects. It uses [ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveCocoa), and is designed to be used with the [MVVM](http://en.wikipedia.org/wiki/Model_View_ViewModel) pattern.
 
 [EPSReactiveCollectionViewController](https://github.com/ElectricPeelSoftware/EPSReactiveCollectionViewController) provides similar functionality for collection view controllers.
