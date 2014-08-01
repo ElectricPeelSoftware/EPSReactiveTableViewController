@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "EPSReactiveTableViewController"
-  s.version          = "1.1.0"
+  s.version          = "1.1.1"
   s.summary          = "A table view controller that automatically populates a table view, and animates the insertion and deletion of rows."
   s.description      = "EPSReactiveTableViewController is a subclass of `UITableViewController` that automatically populates a table view, and animates the insertion and deletion of rows by observing changes to an array of model objects."
 
@@ -16,5 +16,7 @@ Pod::Spec.new do |s|
   s.source_files = 'Classes'
 
   s.public_header_files = 'Classes/*.h'
-  s.dependency 'ReactiveCocoa', '~> 2.2.4'
+  s.dependency 'ReactiveCocoa', '~> 2.3'
+
+  s.deprecated_in_favor_of = 'EPSReactiveList'
 end
